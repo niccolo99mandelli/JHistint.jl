@@ -78,12 +78,4 @@ Per ulteriori informazioni e creazione automatica degli URL consultare la seguen
 
 # Installazione del package
 
-Instruction for installing packages using Project.toml or Manifest.toml:   
-cd("C:/Users/nicom/Desktop/JHistint")  
-using Pkg  
-Pkg.activate(".")  
-Pkg.instantiate()  
-Pkg.status()  
-cd("C:/Users/nicom/Desktop/JHistint/src")  
-include("JApiDataGenerator.jl")  
 
