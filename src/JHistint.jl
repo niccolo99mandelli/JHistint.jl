@@ -1,4 +1,4 @@
-module JHistint
+module JHistint.jl
 
 using HTTP, JSON, ZipFile
 
