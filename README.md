@@ -73,7 +73,7 @@ L'URL richiede la definizione del "parentType" e del "parentId". Diversamente da
 https://api.digitalslidearchive.org/api/v1/folder/$x/download  
 L'URL consente di scaricare una folder in formato .zip. Il download viene effettuato in base all'identificativo della folder.  
   
-Il file di configurazione dell'interfaccia che implementa le API è : JApiDataGenerator.jl  
+Il file di configurazione dell'interfaccia che implementa le API è : JHistint.jl  
 Per ulteriori informazioni e creazione automatica degli URL consultare la seguente guida: https://api.digitalslidearchive.org/api/v1.    
 
 # Installazione del package
