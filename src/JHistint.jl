@@ -120,15 +120,15 @@ function download_zip(link::AbstractString, filepath::AbstractString)
 end
 
 # Collection Management (acc, blca, etc.)
-filepath_collection = "collection/collectionlist.jsn"
+filepath_collection = "./collection/collectionlist.jsn"
 download_collection_values(filepath_collection)
 collection_name=print_collection_values(filepath_collection)
 
 # Project Management (TCGA-OR-A5J1, TCGA-OR-A5J2, etc.)
-filepath_collection = "collection/$collection_name.jsn"
+filepath_collection = "./collection/$collection_name.jsn"
 download_project_infos(filepath_collection, collection_name)
 project_id = extract_project_id(filepath_collection)
-filepath_case = "case/$collection_name.jsn"
+filepath_case = "./case/$collection_name.jsn"
 casesID_values, casesNAME_values = getCasesForProject(filepath_case, project_id)
 
 # Slides Management
