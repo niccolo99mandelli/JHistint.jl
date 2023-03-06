@@ -120,7 +120,7 @@ function download_zip(link::AbstractString, filepath::AbstractString)
 end
 
 # Collection Management (acc, blca, etc.)
-filepath_collection = "./collection/collectionlist.jsn"
+filepath_collection = ".\collection\collectionlist.jsn"
 download_collection_values(filepath_collection)
 collection_name=print_collection_values(filepath_collection)
 
