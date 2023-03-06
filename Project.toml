@@ -5,10 +5,10 @@ repo = "https://github.com/niccolo99mandelli/JHistint.jl.git"
 version = "0.1.0"
 
 [compat]
-HTTP = "1.7.4-1"
-JSON = "0.21.3-0.21"
-ZipFile = "0.10.1-0.10"
-julia = "1.8.5-1"
+HTTP = "1"
+JSON = "0.21"
+ZipFile = "0.10"
+julia = "1"
 
 [deps]
 HTTP = "cd3eb016-35fb-5094-929b-558a96fad6f3"
