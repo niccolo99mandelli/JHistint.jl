@@ -1,6 +1,14 @@
 module JHistint
+export download_collection_values
+export print_collection_values
+export download_project_infos
+export extract_project_id
+export download_zip
+export getCasesForProject
 
-using HTTP, JSON, ZipFile
+using HTTP
+using JSON
+using ZipFile
 
 function download_collection_values(filepath::AbstractString)
     # ID for TCGA Collection
