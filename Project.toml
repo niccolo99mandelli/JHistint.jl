@@ -3,7 +3,6 @@ uuid = "f9cb9bd9-7498-4774-9389-dea22f18ae4d"
 authors = ["niccolò_mandelli <n.mandelli2@campus.unimib.it>"]
 repo = "https://github.com/niccolo99mandelli/JHistint.jl.git"
 version = "0.1.0"
-git-tree-sha1 = "9d3fbc9c87fd00d9a3f02f7153197fa4e1c50962"
 
 [compat]
 HTTP = "1.7.4-1"
