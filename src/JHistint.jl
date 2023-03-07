@@ -1,4 +1,4 @@
-module JHistint
+
 export download_collection_values
 export print_collection_values
 export download_project_infos
@@ -159,4 +159,4 @@ for (i, j) in zip(casesID_values, casesNAME_values)
         download_zip(link_slides, filepath_slides)
     end
 end
-end
+
