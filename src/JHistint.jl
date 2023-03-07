@@ -1,4 +1,6 @@
 module JHistint
+include("functions.jl")
+
 export download_collection_values
 export print_collection_values
 export download_project_infos
