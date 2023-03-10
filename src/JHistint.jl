@@ -131,7 +131,7 @@ end
 
 # Collection Management (acc, blca, etc.)
 println(joinpath(@__DIR__, "..", "collection", "collectionlist.jsn"))
-filepath_collection = "../collection/collectionlist.jsn"
+filepath_collection = joinpath(@__DIR__, "..", "collection", "collectionlist.jsn")
 download_collection_values(filepath_collection)
 collection_name=print_collection_values(filepath_collection)
 
